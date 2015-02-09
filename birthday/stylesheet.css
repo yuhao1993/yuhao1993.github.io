@@ -1,0 +1,357 @@
+
+.balloons {
+	position: fixed;
+	bottom: -200px;
+	opacity: 0.6;
+	z-index: 99;
+	width: 100px;
+	height: 183px;
+	background-repeat: no-repeat no-repeat;
+	background-size: 100px 183px;
+}
+.balloons h2 {
+	text-transform: uppercase;
+	font-family: 'Signika', sans-serif;
+	font-size: 50px;
+	color: #BF4136;
+	text-shadow: 5px 5px 5px #FFF;
+	display: none;
+}
+#b1,#b11 {
+	background-image: url('b1.png');
+}
+#b2,#b22 {
+	background-image: url('b2.png');
+}
+#b3,#b33 {
+	background-image: url('b3.png');
+}
+#b4,#b44{
+	background-image: url('b4.png');
+}
+#b5,#b55{
+	background-image: url('b5.png');
+}
+#b6,#b66{
+	background-image: url('b6.png');
+}
+#b7,#b77{
+	background-image: url('b7.png');
+}
+.balloons-rotate-behaviour-one {
+	-webkit-animation: balloons_rotate_one linear 10s infinite;
+	-webkit-transform: rotate(30deg);
+	-moz-animation: balloons_rotate_one linear 10s infinite;
+	-moz-transform: rotate(30deg);
+	-o-animation: balloons_rotate_one linear 10s infinite;
+	-o-transform: rotate(30deg);
+	-ms-animation: balloons_rotate_one linear 10s infinite;
+	-ms-transform: rotate(30deg);
+	animation: balloons_rotate_one linear 10s infinite;
+	transform: rotate(30deg);
+}
+@-webkit-keyframes balloons_rotate_one {
+	0% {
+		-webkit-transform: rotate(30deg);
+	}
+	50% {
+		-webkit-transform: rotate(-30deg);
+	}
+	100% {
+		-webkit-transform: rotate(30deg);
+	}
+}
+@-moz-keyframes balloons_rotate_one {
+	0% {
+		-moz-transform: rotate(30deg);
+	}
+	50% {
+		-moz-transform: rotate(-30deg);
+	}
+	100% {
+		-moz-transform: rotate(30deg);
+	}
+}
+@-o-keyframes balloons_rotate_one {
+	0% {
+		-o-transform: rotate(30deg);
+	}
+	50% {
+		-o-transform: rotate(-30deg);
+	}
+	100% {
+		-o-transform: rotate(30deg);
+	}
+}
+@-ms-keyframes balloons_rotate_one {
+	0% {
+		-ms-transform: rotate(30deg);
+	}
+	50% {
+		-ms-transform: rotate(-30deg);
+	}
+	100% {
+		-ms-transform: rotate(30deg);
+	}
+}
+@keyframes balloons_rotate_one {
+	0% {
+		transform: rotate(30deg);
+	}
+	50% {
+		transform: rotate(-30deg);
+	}
+	100% {
+		transform: rotate(30deg);
+	}
+}
+.balloons-rotate-behaviour-two {
+	-webkit-animation: balloons_rotate_two linear 10s infinite;
+	-webkit-transform: rotate(-20deg);
+	-moz-animation: balloons_rotate_two linear 10s infinite;
+	-moz-transform: rotate(-20deg);
+	-o-animation: balloons_rotate_two linear 10s infinite;
+	-o-transform: rotate(-20deg);
+	-ms-animation: balloons_rotate_two linear 10s infinite;
+	-ms-transform: rotate(-20deg);
+	animation: balloons_rotate_two linear 10s infinite;
+	transform: rotate(-20deg);
+}
+@-webkit-keyframes balloons_rotate_two {
+	0% {
+		-webkit-transform: rotate(-20deg);
+	}
+	50% {
+		-webkit-transform: rotate(20deg);
+	}
+	100% {
+		-webkit-transform: rotate(-20deg);
+	}
+}
+@-moz-keyframes balloons_rotate_two {
+	0% {
+		-moz-transform: rotate(-20deg);
+	}
+	50% {
+		-moz-transform: rotate(20deg);
+	}
+	100% {
+		-moz-transform: rotate(-20deg);
+	}
+}
+@-o-keyframes balloons_rotate_two {
+	0% {
+		-o-transform: rotate(-20deg);
+	}
+	50% {
+		-o-transform: rotate(20deg);
+	}
+	100% {
+		-o-transform: rotate(-20deg);
+	}
+}
+@-ms-keyframes balloons_rotate_two {
+	0% {
+		-ms-transform: rotate(-20deg);
+	}
+	50% {
+		-ms-transform: rotate(20deg);
+	}
+	100% {
+		-ms-transform: rotate(-20deg);
+	}
+}
+@keyframes balloons_rotate_two {
+	0% {
+		transform: rotate(-20deg);
+	}
+	50% {
+		transform: rotate(20deg);
+	}
+	100% {
+		transform: rotate(-20deg);
+	}
+}
+
+.balloon-border{
+	position: fixed;
+	top:100%;
+	opacity: 0.5;
+	z-index: 9999;
+}
+.control-panel {
+	position: fixed;
+	bottom: 0;
+	padding:10px 0px 10px 0px;
+}
+
+.btn-primary {
+        border-color: #466baf;
+        padding: 10px;
+        text-transform: uppercase;
+        font-family: 'Signika', sans-serif;
+        font-weight: 700;
+        color: #fff;
+        background-color: #466baf;
+        display: block;
+        margin-left: auto;
+    	margin-right: auto 
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    border-color: #fff;
+    color: #fff;
+    background-color: #466baf;
+}
+
+
+#title{
+	font-family: "Microsoft YaHei";
+	font-size: 40px;
+}
+
+#cake{
+
+}
+
+
+#letterimg{
+  position: absolute;
+  top: 142em;
+  z-index: -1;
+}
+
+
+#letter{
+  position: absolute;
+  top: 142em;
+
+}
+
+#song{
+	float: right;
+	display: none;  
+}
+
+.photo-grid {
+  position: relative;
+  margin: 1em auto;
+  max-width: 1106px;
+  text-align: center;
+  top: 300px;
+}
+ 
+.photo-grid li {
+  display: inline-block;
+  margin: 1em;
+  width: 289px;
+}
+ 
+.photo-grid img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+ 
+.photo-grid figure {
+  height: 163px;
+  overflow: hidden;
+  position: relative;
+  width: 289px;
+}
+ 
+.photo-grid figcaption {
+  background: rgba(0,0,0,0.8);
+  color: white;
+  display: table;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+ 
+.photo-grid figcaption p {
+  display: table-cell;
+  font-size: 1.5em;
+  position: relative;
+  top: -40px;
+  width: 289px;
+  vertical-align: middle;
+}
+
+
+.photo-grid li:hover figcaption {
+  opacity: 1;
+}
+
+.photo-grid img {
+  display: block;
+  height: auto;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  transition: all 300ms;
+  max-width: 100%;
+}
+ 
+.photo-grid li:hover img {
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  transform: scale(1.4);
+}
+
+.photo-grid figcaption p {
+  display: table-cell;
+  font-size: 1.5em;
+  position: relative;
+  top: -40px;
+  width: 289px;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  vertical-align: middle;
+}
+ 
+.photo-grid li:hover figcaption p {
+  -moz-transform: translateY(40px);
+  -webkit-transform: translateY(40px);
+  transform: translateY(40px);
+}
+
+.photo-grid figcaption {
+  background: rgba(0,0,0,0.8);
+  color: white;
+  display: table;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  transition: all 300ms;
+  -webkit-transition-delay: 100ms;
+  -moz-transition-delay: 100ms;
+  transition-delay: 100ms;
+  z-index: 100;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#lettertxt{
+	font-size: 200%;
+	font-family: "YouYuan";
+	padding: 20px;
+}
+
